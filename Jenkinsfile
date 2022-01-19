@@ -10,6 +10,7 @@ pipeline {
     stage('build') {
       steps {
         sh 'w'
+        sh 'sleep 10'
       }
     }
 
